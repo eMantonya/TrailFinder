@@ -12,11 +12,11 @@
             "webRoot": "${workspaceFolder}"
         },
         {
-            "name": "SWA: Run globomantics",
+            "name": "SWA: Run trailfinder",
             "request": "launch",
             "type": "pwa-chrome",
             "url": "http://localhost:3000",
-            "preLaunchTask": "swa: start globomantics",
+            "preLaunchTask": "swa: start trailfinder",
             "webRoot": "${workspaceFolder}/",
             "timeout": 30000
         }
